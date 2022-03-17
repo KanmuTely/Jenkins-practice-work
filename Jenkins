@@ -9,7 +9,7 @@ pipeline {
             }
             stage('input'){
             steps{
-                input (from visual studio)}
+                input("from visual studio")}
         }
     }
 }
