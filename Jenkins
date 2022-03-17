@@ -19,12 +19,18 @@ pipeline {
         }
         stage('parallel check2'){
         steps{
-                echo "from visual studio"}
+                echo "from visual studio"
+            
+        }
         
             post{
+                always{
                 mail bcc: '', body: 'hey sup jenkins', cc: '', from: '', replyTo: '', subject: 'jenkins pipeline', to: 'spacespark838@gmail.com'}
+        
+            }
+            }
         }
-        }}
+            
+        }
         }      
     }
-}
