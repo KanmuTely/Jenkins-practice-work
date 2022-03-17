@@ -16,7 +16,9 @@ pipeline {
             stage('parallel check1'){
             steps{
                 echo "from visual studio"}
-        }stage('parallel check2'){
+        }
+        stage('parallel check2'){
+        
             steps{
                 echo "from visual studio"}
         }
