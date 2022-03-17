@@ -18,8 +18,10 @@ pipeline {
                 echo "from visual studio"}
         }
         stage('parallel check2'){
+        steps{
+                echo "from visual studio"}
         
-            steps{
+            post{
                 mail bcc: '', body: 'hey sup jenkins', cc: '', from: '', replyTo: '', subject: 'jenkins pipeline', to: 'spacespark838@gmail.com'}
         }
         }
