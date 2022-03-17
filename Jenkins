@@ -5,6 +5,11 @@ pipeline {
             steps{
                 echo "from visual studio"
             }
+             
+            }
+            stage('input'){
+            steps{
+                input (from visual studio)}
         }
     }
 }
