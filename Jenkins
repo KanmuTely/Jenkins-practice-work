@@ -1,9 +1,9 @@
 Pipeline {
-    Agent any
+    agent any
     stages {
         stage('my first stage'){
             steps{
-                echo "hello"
+                echo "hello from visual studio"
             }
         }
     }
