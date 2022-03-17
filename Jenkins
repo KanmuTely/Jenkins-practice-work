@@ -3,7 +3,7 @@ Pipeline {
     stages {
         stage('my first stage'){
             steps{
-                echo "hello from visual studio"
+                echo "from visual studio"
             }
         }
     }
